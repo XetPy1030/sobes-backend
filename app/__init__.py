@@ -1,5 +1,3 @@
-import os
-
 from flask import Flask
 from flask_cors import CORS
 
@@ -25,4 +23,3 @@ def create_app():
     app.register_blueprint(todo.bp, url_prefix="/todo")
 
     return app
-

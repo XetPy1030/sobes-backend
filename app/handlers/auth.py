@@ -2,7 +2,6 @@ import functools
 import secrets
 
 from flask import Blueprint
-from flask import flash
 from flask import g
 from flask import request
 from flask_cors import cross_origin
