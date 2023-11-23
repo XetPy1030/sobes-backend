@@ -5,7 +5,7 @@ from werkzeug.exceptions import abort
 
 from .auth import login_required
 from ..database import models
-from ..utils.user import validate_create_todo, validate_update_todo_text
+from ..utils.validators import validate_create_todo, validate_update_todo_text
 
 bp = Blueprint("blog", __name__)
 
